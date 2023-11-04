@@ -6,6 +6,7 @@ const doctorModel = require("../models/doctorModel");
 
 
 const registerController = async (req, res) => {
+
   try {
     const existingUser = await userModel.findOne({ email: req.body.email });
     if (existingUser) {
