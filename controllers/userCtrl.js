@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken");
 const doctorModel = require("../models/doctorModel");
 // Register
 
+
 const registerController = async (req, res) => {
   try {
     const existingUser = await userModel.findOne({ email: req.body.email });
