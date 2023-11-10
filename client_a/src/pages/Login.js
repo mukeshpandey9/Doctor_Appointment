@@ -6,7 +6,7 @@ import axios from "axios";
 import { showLoading, hideLoading } from "../redux/features/alertSlice";
 import { useDispatch } from "react-redux";
 const Login = () => {
-  // Form Haldler
+  // Form Haldler 
   const nevigate = useNavigate();
   const dispatch = useDispatch();
  
